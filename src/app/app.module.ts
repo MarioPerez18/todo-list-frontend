@@ -7,11 +7,13 @@ import { TodoListComponent } from './todo-list/todo-list.component';
 import { TaskService } from './todo-list/tasks.service';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
+import { PruebaComponent } from './prueba/prueba.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TodoListComponent
+    TodoListComponent,
+    PruebaComponent
   ],
   imports: [
     BrowserModule,
